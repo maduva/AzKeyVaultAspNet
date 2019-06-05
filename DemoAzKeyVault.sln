@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAzKeyVault", "DemoAzKeyVault\DemoAzKeyVault.csproj", "{5B0CE8CD-278D-495E-82E7-158DB36E1487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAzKeyVault.Tests", "DemoAzKeyVault.Tests\DemoAzKeyVault.Tests.csproj", "{E753BFFF-8833-486E-887B-A217A795C1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B0CE8CD-278D-495E-82E7-158DB36E1487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0CE8CD-278D-495E-82E7-158DB36E1487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0CE8CD-278D-495E-82E7-158DB36E1487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0CE8CD-278D-495E-82E7-158DB36E1487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E753BFFF-8833-486E-887B-A217A795C1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E753BFFF-8833-486E-887B-A217A795C1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E753BFFF-8833-486E-887B-A217A795C1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E753BFFF-8833-486E-887B-A217A795C1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0FDFB02-A214-4FD7-A07E-1BD1D72FE11D}
+	EndGlobalSection
+EndGlobal
