@@ -28,7 +28,7 @@ return secret.Value;
 7. Crear un __Managed_Identity__ de AAD para el app service creado en el paso __6__
 	1. az webapp identity assign --name "demoazkv0x2019" --resource-group "DemoAzKV"
 8. Dar permisos al Managed Identity del paso __7__ para listar y obtener los secretos
-	1. az keyvault set-policy --name 'demokeyvault0x09122018' --object-id '<GUID DEL PRINCIPAL ID>' --secret-permissions get list
+	1. az keyvault set-policy --name 'demokeyvault0x09122018' --object-id '__GUID_PRINCIPAL_ID__' --secret-permissions get list
 9. Probar la recuperación del secreto creado en el paso __2__ en nuestra app
 
 # Build and Test
