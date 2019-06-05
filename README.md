@@ -19,7 +19,7 @@ KeyVaultClient keyVaultClient = new KeyVaultClient(
 										azureServiceTokenProvider.KeyVaultTokenCallback));
 
 var secret = await keyVaultClient
-	.GetSecretAsync("https://MaxAzKeyVault001.vault.azure.net/secrets/DemoSecret01")
+	.GetSecretAsync("https://demokeyvault0x09122018.vault.azure.net/secrets/DemoSecret01")
 	.ConfigureAwait(false);
 
 return secret.Value;
