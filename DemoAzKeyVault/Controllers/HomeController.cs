@@ -14,8 +14,8 @@ namespace DemoAzKeyVault.Controllers
 {
     public class HomeController : Controller
     {
-        private const string AZ_KEYVAULT_SECRET_URL = "https://MaxAzKeyVault001.vault.azure.net/secrets/DemoSecret01";
-        private const string AZ_KEYVAULT_URL = "https://MaxAzKeyVault001.vault.azure.net";
+        private const string AZ_KEYVAULT_SECRET_URL = "https://AZ_KV.vault.azure.net/secrets/DemoSecret01";
+        private const string AZ_KEYVAULT_URL = "https://AZ_KV.vault.azure.net";
 
         public ActionResult Index()
         {
@@ -70,13 +70,5 @@ namespace DemoAzKeyVault.Controllers
                     "7af4d5b98ae743d4885ca20afcd339b1")
                 .ConfigureAwait(false);
         }
-
-        //public async Task<string> GetAccessTokenAsync()
-        //{
-        //    var azureServiceTokenProvider = new AzureServiceTokenProvider();
-        //    string accessToken = await azureServiceTokenProvider.GetAccessTokenAsync("https://MaxAzKeyVault001.vault.azure.net");
-        //    return accessToken;
-        //}
-
     }
 }
